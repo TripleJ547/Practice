@@ -29,16 +29,39 @@
 
 //-----------------------------------------------------------------------------
 
-//Learning about objects
-var Computer = {
-    name: 'MacBook Pro',
-    _for: 'Me',
-    details: {
-        size: '15',
-        year: '2018',
-        color: 'Space Gray'
-    }
-};
+// //Learning about objects
+// var Computer = {
+//     name: 'MacBook Pro',
+//     _for: 'Me',
+//     details: {
+//         size: '15',
+//         year: '2018',
+//         color: 'Space Gray'
+//     }
+// };
 
-console.log(Computer.name, Computer.details.year);
-console.log(Computer.details.size);
+// console.log(Computer.name, Computer.details.year);
+// console.log(Computer.details.size);
+
+//-----------------------------------------------------------------------------
+
+// //OOP in JavaScript
+// function makePerson(firstName, lastName) {
+//     return {
+//         first: firstName,
+//         last: lastName,
+//         fullName: function() {
+//             return this.first + ' ' + this.last;
+//         },
+//         fullNameReserved: function() {
+//             return this.last + ', ' + this.first;
+//         }
+//     };
+// }
+
+// s = makePerson("Alexandra", "Gostev");
+// console.log(s.fullName());
+// console.log(s.fullNameReserved());
+
+//-----------------------------------------------------------------------------
+
