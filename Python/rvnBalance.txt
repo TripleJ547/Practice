@@ -30,3 +30,255 @@ Fri Apr 20 11:09:11 2018
 {"currency": "RVN", "unsold": 0, "balance": 0.00000000, "unpaid": 0.00000000, "paid24h": 6.68879948, "total": 6.68879948}
 Mon Apr 23 11:25:00 2018
 {"currency": "RVN", "unsold": 0, "balance": 0.00000000, "unpaid": 0.00000000, "paid24h": 22.92511503, "total": 22.92511503}
+Sun Oct 21 15:35:32 2018
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MinerMore | Error 404: Not Found</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+
+  <meta name="msapplication-TileImage" content="/images/mm_sq.png">
+  <link rel="apple-touch-icon" href="/images/mm_sq.png"/>  
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/mm_sq_72.png"/>  
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/mm_sq_114.png"/>  
+
+
+  <link rel="stylesheet" href="/dist/css/mm.min.css">
+  <link rel="stylesheet" href="/dist/css/skins/skin-green.min.css">
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/dist/js/mm.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+  <link href="/dist/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="/dist/js/bootstrap-toggle.min.js"></script>
+
+</head>
+<body class="hold-transition skin-green sidebar-mini">
+<div class="wrapper">
+  <header class="main-header">
+    <a href="/" class="logo">
+      <span class="logo-mini"><b>Miner</b>More</span>
+      <span class="logo-lg"><b>Miner</b>More 3.0</span>
+    </a>
+    <nav class="navbar navbar-static-top" role="navigation">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+      <li><a href="/register.php"><i class="fa fa-user-plus"></i> Register</a></li>
+      <li><a href="/login.php"><i class="fa fa-sign-in"></i> Login</a></li>
+  
+          <!-- <li><a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+  
+      <form action="/wallet/" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="address" class="form-control" placeholder="Wallet address...">
+          <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+              </button>
+            </span>
+        </div>
+      </form>
+
+      <ul class="sidebar-menu" data-widget="tree">
+        <!-- <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li> -->
+        <li><a href="/"><i class="fa fa-home"></i> <span>Homepage</span></a></li>
+
+   
+
+        <li class="treeview">
+          <a href="#"><i class="fa fa-barcode"></i> <span>Coins to mine</span>
+            <span class="pull-right-container"><i class="fa fa-angle-right pull-right"></i></span>
+          </a>
+          <ul class="treeview-menu">
+   <li><a href="/pool/ANON/">ANONCoin</a></li><li><a href="/pool/BTCZ/">BitcoinZ</a></li><li><a href="/pool/CRC/">CrowdCoin</a></li><li><a href="/pool/CST/">Costlycoin</a></li><li><a href="/pool/DIN/">Dinero</a></li><li><a href="/pool/FIG/">Figurecoin</a></li><li><a href="/pool/FTC/">Feathercoin</a></li><li><a href="/pool/GIN/">Gincoin</a></li><li><a href="/pool/GTM/">Gentarium</a></li><li><a href="/pool/HTH/">Help the Homeless</a></li><li><a href="/pool/IFX/">Infinex</a></li><li><a href="/pool/INN/">Innova</a></li><li><a href="/pool/MANO/">ManoCoin</a></li><li><a href="/pool/PGN/">Pigeoncoin</a></li><li><a href="/pool/PYRO/">Pyrocoin</a></li><li><a href="/pool/REDN/">Reden</a></li><li><a href="/pool/REEF/">Reefcoin</a></li><li><a href="/pool/RESQ/">RESQ Chain</a></li><li><a href="/pool/RPWN/">Respawn</a></li><li><a href="/pool/RVN/">Ravencoin</a></li><li><a href="/pool/RVNt/">Testnet RVN</a></li><li><a href="/pool/SAFE/">SafeCoin</a></li><li><a href="/pool/SOV/">Sovcoin</a></li><li><a href="/pool/STONE/">Stonecoin</a></li><li><a href="/pool/SUQA/">SUQA</a></li><li><a href="/pool/TUX/">Tuxcoin</a></li><li><a href="/pool/UFO/">UFOCoin</a></li><li><a href="/pool/VECO/">VECO</a></li><li><a href="/pool/VTL/">Verticalcoin</a></li><li><a href="/pool/WANT/">Wantcoin</a></li><li><a href="/pool/XMG/">MAGI</a></li><li><a href="/pool/XMN/">Motion</a></li><li><a href="/pool/XSG/">Snowgem</a></li><li><a href="/pool/XZC/">ZCoin</a></li><li><a href="/pool/ZEL/">Zelcash</a></li><li><a href="/pool/ZERO/">Zero Currency</a></li>
+          </ul>
+        </li>
+        <li><a href="/wallet/"><i class="fa fa-bitcoin"></i> <span>Wallet Lookup</span></a></li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-question"></i> <span>Helpful Info</span>
+            <span class="pull-right-container"><i class="fa fa-angle-right pull-right"></i></span>
+          </a>
+          <ul class="treeview-menu">
+<li><a href="/docs/help/faq/">FAQ</a></li><li><a href="/docs/help/equihash/">Equihash</a></li><li><a href="/api/">API</a></li><li><a href="/docs/help/payouts/">Payouts</a></li><li><a href="/docs/help/earnings/">Earnings</a></li><li><a href="/docs/help/calculators/">Calculators</a></li><li><a href="/docs/help/links/">Links</a></li>
+          </ul>
+        </li>
+  
+        <li><a href="/support/"><i class="fa fa-ambulance"></i> <span>Support</span></a></li>
+        <li><a href="https://twitter.com/MinerMore/" target="_twitter">twitter @MinerMore</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <div class="content-wrapper">
+    <section class="content-header">
+      <h1>Error 404: Not Found</h1></section><section class="content container-fluid">
+      <div class="error-page">
+        <h2 class="headline text-yellow"> 404</h2>
+        <div class="error-content">
+          <h3><i class="fa fa-warning text-yellow"></i> Oops! Page not found.</h3>
+          <p>
+     We checked the server, grepped our git repository, rescanned and reindexed the blockchain, and still couldn't find your page. Sorry about that. tail your debug.log for more info, or just go to our <a href="/">homepage</a>.
+        </div>
+      </div>
+  
+
+    </section> <!-- /.content -->
+  </div> <!-- /.content-wrapper -->
+
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+
+    </div>
+    <strong>Copyright &copy; 2018 <a href="/">MinerMore.com</a></strong>. All dates and times are UTC.
+  </footer>
+
+</body>
+</html>
+
+Sun Oct 21 15:37:27 2018
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MinerMore | Error 404: Not Found</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+
+  <meta name="msapplication-TileImage" content="/images/mm_sq.png">
+  <link rel="apple-touch-icon" href="/images/mm_sq.png"/>  
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/mm_sq_72.png"/>  
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/mm_sq_114.png"/>  
+
+
+  <link rel="stylesheet" href="/dist/css/mm.min.css">
+  <link rel="stylesheet" href="/dist/css/skins/skin-green.min.css">
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/dist/js/mm.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+  <link href="/dist/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="/dist/js/bootstrap-toggle.min.js"></script>
+
+</head>
+<body class="hold-transition skin-green sidebar-mini">
+<div class="wrapper">
+  <header class="main-header">
+    <a href="/" class="logo">
+      <span class="logo-mini"><b>Miner</b>More</span>
+      <span class="logo-lg"><b>Miner</b>More 3.0</span>
+    </a>
+    <nav class="navbar navbar-static-top" role="navigation">
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+
+      <li><a href="/register.php"><i class="fa fa-user-plus"></i> Register</a></li>
+      <li><a href="/login.php"><i class="fa fa-sign-in"></i> Login</a></li>
+  
+          <!-- <li><a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+
+  
+      <form action="/wallet/" method="get" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="address" class="form-control" placeholder="Wallet address...">
+          <span class="input-group-btn">
+              <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+              </button>
+            </span>
+        </div>
+      </form>
+
+      <ul class="sidebar-menu" data-widget="tree">
+        <!-- <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li> -->
+        <li><a href="/"><i class="fa fa-home"></i> <span>Homepage</span></a></li>
+
+   
+
+        <li class="treeview">
+          <a href="#"><i class="fa fa-barcode"></i> <span>Coins to mine</span>
+            <span class="pull-right-container"><i class="fa fa-angle-right pull-right"></i></span>
+          </a>
+          <ul class="treeview-menu">
+   <li><a href="/pool/ANON/">ANONCoin</a></li><li><a href="/pool/BTCZ/">BitcoinZ</a></li><li><a href="/pool/CRC/">CrowdCoin</a></li><li><a href="/pool/CST/">Costlycoin</a></li><li><a href="/pool/DIN/">Dinero</a></li><li><a href="/pool/FIG/">Figurecoin</a></li><li><a href="/pool/FTC/">Feathercoin</a></li><li><a href="/pool/GIN/">Gincoin</a></li><li><a href="/pool/GTM/">Gentarium</a></li><li><a href="/pool/HTH/">Help the Homeless</a></li><li><a href="/pool/IFX/">Infinex</a></li><li><a href="/pool/INN/">Innova</a></li><li><a href="/pool/MANO/">ManoCoin</a></li><li><a href="/pool/PGN/">Pigeoncoin</a></li><li><a href="/pool/PYRO/">Pyrocoin</a></li><li><a href="/pool/REDN/">Reden</a></li><li><a href="/pool/REEF/">Reefcoin</a></li><li><a href="/pool/RESQ/">RESQ Chain</a></li><li><a href="/pool/RPWN/">Respawn</a></li><li><a href="/pool/RVN/">Ravencoin</a></li><li><a href="/pool/RVNt/">Testnet RVN</a></li><li><a href="/pool/SAFE/">SafeCoin</a></li><li><a href="/pool/SOV/">Sovcoin</a></li><li><a href="/pool/STONE/">Stonecoin</a></li><li><a href="/pool/SUQA/">SUQA</a></li><li><a href="/pool/TUX/">Tuxcoin</a></li><li><a href="/pool/UFO/">UFOCoin</a></li><li><a href="/pool/VECO/">VECO</a></li><li><a href="/pool/VTL/">Verticalcoin</a></li><li><a href="/pool/WANT/">Wantcoin</a></li><li><a href="/pool/XMG/">MAGI</a></li><li><a href="/pool/XMN/">Motion</a></li><li><a href="/pool/XSG/">Snowgem</a></li><li><a href="/pool/XZC/">ZCoin</a></li><li><a href="/pool/ZEL/">Zelcash</a></li><li><a href="/pool/ZERO/">Zero Currency</a></li>
+          </ul>
+        </li>
+        <li><a href="/wallet/"><i class="fa fa-bitcoin"></i> <span>Wallet Lookup</span></a></li>
+        <li class="treeview">
+          <a href="#"><i class="fa fa-question"></i> <span>Helpful Info</span>
+            <span class="pull-right-container"><i class="fa fa-angle-right pull-right"></i></span>
+          </a>
+          <ul class="treeview-menu">
+<li><a href="/docs/help/faq/">FAQ</a></li><li><a href="/docs/help/equihash/">Equihash</a></li><li><a href="/api/">API</a></li><li><a href="/docs/help/payouts/">Payouts</a></li><li><a href="/docs/help/earnings/">Earnings</a></li><li><a href="/docs/help/calculators/">Calculators</a></li><li><a href="/docs/help/links/">Links</a></li>
+          </ul>
+        </li>
+  
+        <li><a href="/support/"><i class="fa fa-ambulance"></i> <span>Support</span></a></li>
+        <li><a href="https://twitter.com/MinerMore/" target="_twitter">twitter @MinerMore</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <div class="content-wrapper">
+    <section class="content-header">
+      <h1>Error 404: Not Found</h1></section><section class="content container-fluid">
+      <div class="error-page">
+        <h2 class="headline text-yellow"> 404</h2>
+        <div class="error-content">
+          <h3><i class="fa fa-warning text-yellow"></i> Oops! Page not found.</h3>
+          <p>
+     We checked the server, grepped our git repository, rescanned and reindexed the blockchain, and still couldn't find your page. Sorry about that. tail your debug.log for more info, or just go to our <a href="/">homepage</a>.
+        </div>
+      </div>
+  
+
+    </section> <!-- /.content -->
+  </div> <!-- /.content-wrapper -->
+
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+
+    </div>
+    <strong>Copyright &copy; 2018 <a href="/">MinerMore.com</a></strong>. All dates and times are UTC.
+  </footer>
+
+</body>
+</html>
+

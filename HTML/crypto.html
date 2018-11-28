@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+  <title>Prices</title>
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <link rel="icon" type="image/png" href="https://images.cointelegraph.com/images/740_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wNmY3YTk1MDNiOWZiODg1ZGNlMjQ5ZDU3ZjA4OWIwMy5qcGc=.jpg" />
+</head>
+
+<body>
+  <div id="hello"></div>
+
+  <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+  <coingecko-coin-price-marquee-widget id='crypto' coin-ids="bitcoin,ethereum,litecoin,ravencoin,usd-coin" currency="usd"
+    background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
+
+  <div id="ravencoin">
+    <p></p>
+  </div>
+
+  <button onclick="calc()">Calculate</button>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function calc() {
+      let url = "https://minermore.com/api/wallet?address=triplej547";
+      let r = fetch(url);
+      console.log(r);
+      document.getElementById("ravencoin").innerHTML = r;
+    }
+  </script>
+  <p></p>
+</body>
+
+</html>

@@ -8,7 +8,9 @@ const productRoutes = require('./api/routes/products');
 const orderRoutes = require('./api/routes/orders');
 
 mongoose.connect(
-    "mongodb://me:Triplej7879!@learning-restful-api-shard-00-00-dktr2.mongodb.net:27017,learning-restful-api-shard-00-01-dktr2.mongodb.net:27017,learning-restful-api-shard-00-02-dktr2.mongodb.net:27017/test?ssl=true&replicaSet=learning-restful-api-shard-0&authSource=admin&retryWrites=true", {
+    "mongodb://me:" +
+    process.env.MONGO_ATLAS_PWD +
+    "@learning-restful-api-shard-00-00-dktr2.mongodb.net:27017,learning-restful-api-shard-00-01-dktr2.mongodb.net:27017,learning-restful-api-shard-00-02-dktr2.mongodb.net:27017/test?ssl=true&replicaSet=learning-restful-api-shard-0&authSource=admin&retryWrites=true", {
         useNewUrlParser: true
     }
 );

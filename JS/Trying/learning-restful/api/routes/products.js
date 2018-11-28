@@ -17,7 +17,6 @@ router.get('/', (req, res, next) => {
                 error: err
             });
         });
-
 });
 
 router.post("/", (req, res, next) => {

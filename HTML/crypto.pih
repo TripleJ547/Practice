@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prices</title>
+    <link rel="icon" type="image/png" href="https://images.cointelegraph.com/images/740_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wNmY3YTk1MDNiOWZiODg1ZGNlMjQ5ZDU3ZjA4OWIwMy5qcGc=.jpg">
+</head>
+
+<body onload="rvn()">
+    <script>
+        function rvn() {
+            // console.log(document.getElementById("gecko").getAttribute("coin-ids"))
+            var theUrl = "https://minermore.com/api/wallet?address=triplej547"
+            httpGetAsync(theUrl, res => {
+                console.log(res)
+            })
+
+            document.getElementById("hello").innerHTML = "<p></p>";
+            // document.getElementById("hello").innerText = res;
+
+            console.log("Hi")
+        }
+
+        function httpGetAsync(theUrl, callback) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+            xmlHttp.send(null);
+        }
+    </script>
+
+    <div id="hello">
+    </div>
+
+    <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
+    <div id="gecko">
+        <coingecko-coin-list-widget currency="usd" coin-ids="bitcoin,ethereum,litecoin,ripple,ravencoin,sovereign-coin"
+            locale="en" width="0"></coingecko-coin-list-widget>
+    </div>
+    <p>
+        
+    </p>
+
+</body>
+
+</html>

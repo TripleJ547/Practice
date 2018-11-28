@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 import time
 
@@ -5,7 +7,7 @@ import time
 # while(True):
 f = open('rvnBalance.txt', 'a')
 r = requests.get(
-    'https://miningpanda.site/api/wallet?address=RHzDtA9VCVEhMAkezvyXWL4W7ifXxcPkQq')
+    'https://minermore.com/api/wallet?address=RHzDtA9VCVEhMAkezvyXWL4W7ifXxcPkQq')
 localTime = str(time.asctime())
 f.write(localTime)
 print(localTime)
